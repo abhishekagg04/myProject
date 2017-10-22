@@ -1,0 +1,39 @@
+#include<stdio.h>
+void main()
+{
+int n,sum=0,k,x,y,t=0;
+clrscr();
+printf("enter total time cycles");
+scanf("%d",&n);
+printf("enter the amount of time for which data is free \n ");
+scanf("%d",&k);
+for(i=1;i<=n;i++)
+{
+printf("enter time span\n");
+scanf("%d",&x);
+printf("enter amount of data used per minute\n");
+scanf("%d",&y);
+t=t+x;
+k=k-t; 
+if(t>=k)
+sum=sum+x*y;
+else
+{
+if(k-x>0)
+sum=sum+
+}
+
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
